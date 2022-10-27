@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<head>
+    <title> Code to create form </title>
+</head>
+<body>
+    <form> 
+   <p> Information 
+    <br> 
+    First name : <input type = "text" name = "first_name" /> 
+    <br> 
+    Last name : <input type = "text" name ="last_name" /> 
+    <br> </p>
+    <p>
+    Multiple Line Input 
+    <br> 
+    <textarea rows = "30"  cols = "50" name = "Multiple Line Input "> 
+    Start to Enter Multiple Line Input here 
+    </textarea></p>
+    <br> 
+    <p>
+    Do you wish to attend university (Radio buttons) 
+    <br> 
+    <input type = "radio" name ="college" value ="yes"> Yes i want to attend
+    <input type ="radio" name ="college" value = "no"> NO i do not want to attend
+    <input type="radio" name="lab" value="no">This is CPPLlab
+    <input type="radio" name="lab" value="yes">This is DBMSlab
+    <br> </p>
+    <p>
+    Career Choices ( checkbox ) <br> 
+    <input type = "checkbox" name = "software engineer" value = "on"> Software Engineer <br>
+    <input type = "checkbox" name = "mechanical engineer" value = "on"> Mechanical Engineer <br>
+    <input type = "checkbox" name = "AI engineer" value = "on"> AI Engineer <br>
+    <input type = "checkbox" name = "Electronic engineer" value = "on"> Electronic Engineer <br></p>
+    
+    <p>Age of Student (Drop down) <br> 
+    <select name ="dropdown">
+        <option value ="18" selected> 18 </option>
+        <option value ="19"> 19 </option>
+        <option value ="20"> 20 </option>
+        <option value ="21"> 21 </option>
+        <option value ="22"> 22 </option>
+    </select></p>
+    <br> 
+    <p>File Upload <br> 
+    <input type ="file" name ="upload_file" accept ="image/*"> 
+    <br></p> 
+    <p>Date and Time 
+    <br> 
+    <label> Project Submission time : </label>
+    <input type ="datetime-local" name =" "> 
+    <br></p>
+    <input type = "submit" name =" submit " value ="Submit"/>
+    <input type="reset" name="reset" value="Reset"/> 
+    
+    
+    </form>
+</body>
